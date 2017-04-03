@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<title>Project Pool</title>
+<link href="todo.css" rel="stylesheet">
+<meta charset="utf-8">
+</head>
+<body>
+<form method="POST">
+     <div id="dynamicInput">
+          Entry 1<br><input type="text" id="add" name="myInputs[]">
+     </div>
+     <input type="button"  value="Add" onClick="addInput();">
+</form>
+
+
+<h1> To do </h1>
+<ul class="todo">
+<li>Clean the room</li>
+<li>Shopping</li>
+<li>Go to the gym</li>
+<li>Call Julia</li>
+</ul>
+
+<hr>
+
+<h2> Done! </h2>
+<ul class="done">
+<li>Make dinner</li>
+<li>Take shower</li>
+<li>Take dog for a walk</li>
+
+</ul>
+
+    <script src="java.js"></script>
+</body>
+</html>
